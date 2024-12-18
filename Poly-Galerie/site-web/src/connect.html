@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/connect.js" type="module" defer></script>
+  <script src="assets/js/header.js" type="module" defer></script>
+  <title>PolyGalerie</title>
+</head>
+
+<body>
+  <header class="flex-container-row flex-space-between">
+    <a href="index.html">
+      <h1>PolyGalerie</h1>
+    </a>
+    <div id="user-info-container" class="flex-container-row flex-center-align">
+      <span id="user-info">Anonyme</span>
+      <button id="account-btn" class="button-action">Déconnexion</button>
+    </div>
+  </header>
+  <main class="flex-container-column flex-center-align">
+    <section id="account-section">
+      <h2>Se connecter</h2>
+      <form id="account-form">
+        <fieldset>
+          <legend>Connexion</legend>
+          <div class="form-group">
+            <label for="username">Nom:</label>
+            <input id="username" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Mot de passe:</label>
+            <input id="password" type="password" required>
+          </div>
+          <div>
+            <div class="flex-container-row flex-space-between flex-center-align">
+              <button id="send" class="button-action">Soumettre</button>
+              <div>
+                <label for="create-check">Créer un compte</label>
+                <input id="create-check" type="checkbox">
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <section id="message-field">
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>

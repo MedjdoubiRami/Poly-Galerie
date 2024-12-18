@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/header.js" type="module" defer></script>
+  <script src="assets/js/gallery.js" type="module" defer></script>
+  <title>PolyGalerie</title>
+</head>
+
+<body>
+  <header class="flex-container-row flex-space-between">
+    <a href="index.html">
+      <h1>PolyGalerie</h1>
+    </a>
+    <div id="user-info-container" class="flex-container-row flex-center-align">
+      <span id="user-info">Anonyme</span>
+      <button id="account-btn" class="button-action">Déconnexion</button>
+    </div>
+  </header>
+  <main class="flex-container-column flex-center-align">
+    <h1>Images</h1>
+    <div id="gallery-display">
+    </div>
+    <div>
+      <form id="image-upload-form">
+        <fieldset>
+          <legend>Ajouter une image</legend>
+          <div class="form-group">
+            <label for="img-name">Nom:</label>
+            <input type="text" id="img-name" name="img-name" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="img-file">Fichier:</label>
+            <input type="file" id="img-file" name="img-file" required accept=".jpg, .jpeg, .png">
+          </div>
+          <button id="image-upload-btn" class="button-action">Soumettre</button>
+        </fieldset>
+      </form>
+    </div>
+  </main>
+  <footer>
+  </footer>
+</body>
+
+</html>

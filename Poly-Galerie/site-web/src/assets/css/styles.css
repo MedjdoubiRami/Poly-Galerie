@@ -1,0 +1,115 @@
+body {
+    color: white;
+    background-color: #273f27;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flex-center-align {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+fieldset {
+    width: 300px;
+    padding: 25px;
+    position: relative;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+label {
+    flex: 1;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    flex: 2;
+    height: 15px;
+    width: 100%;
+}
+
+header{
+    padding : 0 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#user-info{
+    font-size: x-large;
+}
+
+.button-action {
+    background-color: #0088c1;
+    color: #ffffff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+.error-element {
+    color: #ff0000;
+}
+
+#message-field p {
+    font-size: 30px;
+    color: #ff0000;
+}
+
+#gallery-display {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gallery-image {
+    width: 480px;
+    height: 330px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+#image-container {
+    gap: 20px;
+}
+
+#image {
+    width: 640px;
+    height: 480px;
+}
+
+#delete-btn {
+    background-color: #ff0000;
+}

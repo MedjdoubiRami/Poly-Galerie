@@ -1,0 +1,30 @@
+[
+  {
+    "username": "admin",
+    "password": "admin",
+    "token": "cef80470-96e8-4573-b533-d8d66631077f"
+  },
+  {
+    "username": "a",
+    "password": "b"
+  },
+  {
+    "username": "u",
+    "password": "u",
+    "token": "86b8fd0c-379e-4e0e-9f24-1de03db7c409"
+  },
+  {
+    "username": "re",
+    "password": "re",
+    "token": "d482280d-2af4-48eb-b735-97053ddf975f"
+  },
+  {
+    "username": "Rami",
+    "password": "Test"
+  },
+  {
+    "username": "Jordan",
+    "password": "Test",
+    "token": "337cd7f9-5300-4a27-8105-07e87937377c"
+  }
+]

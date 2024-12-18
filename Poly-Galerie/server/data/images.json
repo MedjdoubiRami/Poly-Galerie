@@ -1,0 +1,19 @@
+[
+  {
+    "id": "f4b811ba-9433-4267-9f9e-3655402cd337",
+    "name": "Hibiscus",
+    "url": "f4b811ba-9433-4267-9f9e-3655402cd337.jpg",
+    "private": true
+  },
+  {
+    "id": "fcae8626-6f27-4a7b-a6d8-5c57fb3fe141",
+    "name": "Plage",
+    "url": "fcae8626-6f27-4a7b-a6d8-5c57fb3fe141.jpg"
+  },
+  {
+    "id": "0fb001c1-687d-4cdf-8611-237010bc6407",
+    "name": "Chat",
+    "url": "0fb001c1-687d-4cdf-8611-237010bc6407.jpg",
+    "private": false
+  }
+]
